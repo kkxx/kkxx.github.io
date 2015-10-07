@@ -1,3 +1,6 @@
 name: Your New Jekyll Site
 markdown: redcarpet
 highlighter: pygments
+paygments: true
+safe: true
+auto: true
