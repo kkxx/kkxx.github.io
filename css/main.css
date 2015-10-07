@@ -1,0 +1,206 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font-family: 'OFL Sorts Mill Goudy','OFL Sorts Mill Goudy TT',serif;
+  font-size: small;
+  text-align: center;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; }
+
+a:hover {
+    text-shadow: 0 0 2px #ffaaaa
+}
+
+a, a:link, a:visited, a:active, a:hover {
+    text-decoration: none;
+    outline: none
+}
+
+a, a:link, a:visited, a:active {
+    color: #002b36
+}
+
+a:hover {
+    color: #cb4b16
+}
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+.posts::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.blog_list ol {
+  line-height: 1.75em;
+  padding-bottom: 2em;
+  list-style-type: none;
+}
+
+.blog_list ol li {
+  float: left;
+  width: 50%;
+  height: 150px;
+  margin: 0;
+  text-align: center;
+}
+
+.posts .post_title {
+  font: normal 23px/32px 'OFL Sorts Mill Goudy','OFL Sorts Mill Goudy TT',serif;
+  color: #000000;
+  font-size: 23px;
+}
+
+.posts .post_dsp {
+  font-size: 18px;
+  color: #999;
+  font-family: 'OFL Sorts Mill Goudy','OFL Sorts Mill Goudy TT',serif;
+  line-height: 25px;
+  font-style: italic;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site{
+  font-size: 115%;
+  text-align: justify;
+  width: 60%;
+  margin: 2em auto 2em auto;
+  line-height: 1.5em;
+}
+
+.title {
+  display: inline-block;
+  margin-bottom: 2em;
+}
+
+.title a {
+  color: #a00;
+}
+
+.title a:hover {
+  color: #000;
+}
+
+.header
+{
+    letter-spacing: -0.025em;
+    margin: 2em auto 2em auto;
+    font-size: 1.25em;
+    text-align: center;
+    font-weight: thin;
+    font-style: italic;
+    opacity: 0.25;
+    border-bottom: dashed 1px #93a1a1;
+}
+
+.header:hover
+{
+  opacity:1
+}
+.home
+{
+  margin: auto 5% auto 5%;
+}
+
+.blog
+{
+  margin: auto 5% auto 5%;
+}
+.project
+{
+  margin: auto 5% auto 5%;
+}
+
+.about
+{
+  margin: auto 5% auto 5%;
+}
+
+.meta {
+  color: #aaa;
+  font-size: 18px;
+}
+
+.footer {
+    margin-top: 2em;
+    border-top: dashed 1px #93a1a1;
+}
+
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+.post{
+  font-size: 18px;
+}
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
+
+.page_title{
+  font-size: 45px;
+  line-height: 50px;
+  margin: 25px 0;
+}
+
