@@ -51,4 +51,4 @@ description: Atom使用总结
 
   在代码中跳转到某一行使用`ctrl-g`同时用`row:column`,column可以不输入，默认行首
 
-    [<img class="center" src="/images/atom_07.png" width="100%" />](/images/atom_07.png)
+  [<img class="center" src="/images/atom_07.png" width="100%" />](/images/atom_07.png)
